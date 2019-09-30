@@ -13,11 +13,11 @@ import (
 	"encoding/json"
 	"os"
 
-	config "github.com/micro/go-config"
-	"github.com/micro/go-config/source/env"
-	"github.com/micro/go-config/source/file"
-	"github.com/micro/go-config/source/flag"
-	"github.com/micro/go-config/source/memory"
+	config "github.com/micro/go-micro/config"
+	"github.com/micro/go-micro/config/source/env"
+	"github.com/micro/go-micro/config/source/file"
+	"github.com/micro/go-micro/config/source/flag"
+	"github.com/micro/go-micro/config/source/memory"
 	"github.com/redhat-cop/cert-operator/pkg/certs"
 	"github.com/sirupsen/logrus"
 )
