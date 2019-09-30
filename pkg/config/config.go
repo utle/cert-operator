@@ -13,6 +13,7 @@ import (
 	"encoding/json"
 	"os"
 
+	"github.com/micro/go-micro/config"
 	"github.com/micro/go-micro/config/source"
 	"github.com/micro/go-micro/config/source/env"
 	"github.com/micro/go-micro/config/source/file"
