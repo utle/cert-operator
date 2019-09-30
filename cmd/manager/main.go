@@ -10,8 +10,8 @@ import (
 	// Import all Kubernetes client auth plugins (e.g. Azure, GCP, OIDC, etc.)
 	_ "k8s.io/client-go/plugin/pkg/client/auth"
 
-	"github.com/redhat-cop/cert-operator/pkg/apis"
-	"github.com/redhat-cop/cert-operator/pkg/controller"
+	"github.com/utle/cert-operator/pkg/apis"
+	"github.com/utle/cert-operator/pkg/controller"
 
 	"github.com/operator-framework/operator-sdk/pkg/k8sutil"
 	"github.com/operator-framework/operator-sdk/pkg/leader"
@@ -26,7 +26,7 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/runtime/signals"
 
 	routev1 "github.com/openshift/api/route/v1"
-	certconf "github.com/redhat-cop/cert-operator/pkg/config"
+	certconf "github.com/utle/cert-operator/pkg/config"
 )
 
 // Change below variables to serve metrics on different host or port.
