@@ -1,7 +1,7 @@
 package controller
 
 import (
-	"github.com/redhat-cop/cert-operator/pkg/controller/service"
+	"github.com/utle/cert-operator/pkg/controller/service"
 )
 
 func init() {
